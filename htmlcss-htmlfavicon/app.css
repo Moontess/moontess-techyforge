@@ -1,0 +1,28 @@
+/* HTML CSS */
+section {
+  margin-bottom: 16pc;
+}
+h2 {
+  text-align: center;
+}
+.border1,
+.border2,
+.border3 {
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+.border1 {
+  border: 1px double gold;
+}
+.border2 {
+  color: black;
+  background-color: blue;
+  border: 1px solid gold;
+}
+.border3 {
+  color: #fff;
+  background-color: brown;
+  border: 1px dotted blue;
+}
