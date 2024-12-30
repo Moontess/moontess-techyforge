@@ -1,4 +1,3 @@
-/* HTML CSS */
 section {
   margin-bottom: 16px;
 }
@@ -6,7 +5,13 @@ h2 {
   text-align: center;
   margin-bottom: 16px;
 }
-
+/* HTML FAVICON */
+link .fav {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
 /* HTML CSS */
 .border1,
 .border2,
@@ -52,7 +57,6 @@ a:hover {
 
 a:active {
   background-color: yellow;
-
 }
 
 /* HTML IMAGES  */
