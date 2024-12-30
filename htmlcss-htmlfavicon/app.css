@@ -1,10 +1,13 @@
 /* HTML CSS */
 section {
-  margin-bottom: 16pc;
+  margin-bottom: 16px;
 }
 h2 {
   text-align: center;
+  margin-bottom: 16px;
 }
+
+/* HTML CSS */
 .border1,
 .border2,
 .border3 {
@@ -25,4 +28,44 @@ h2 {
   color: #fff;
   background-color: brown;
   border: 1px dotted blue;
+}
+
+/* HTML LINKS */
+a {
+  color: black;
+  border: 1px solid grey;
+  padding: 8px;
+  margin: 5px;
+}
+a:link {
+  background-color: #cdcdcd;
+}
+
+a:visited {
+  background-color: green;
+}
+
+a:hover {
+  background-color: red;
+  text-decoration: none;
+}
+
+a:active {
+  background-color: yellow;
+
+}
+
+/* HTML IMAGES  */
+.bgImage {
+  background-color: transparent;
+  background-image: url('./Images/hbd2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.pic {
+  font-weight: bold;
 }
