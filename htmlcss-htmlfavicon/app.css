@@ -1,0 +1,75 @@
+section {
+  margin-bottom: 16px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+/* HTML FAVICON */
+link .fav {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+/* HTML CSS */
+.border1,
+.border2,
+.border3 {
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+.border1 {
+  border: 1px double gold;
+}
+.border2 {
+  color: black;
+  background-color: blue;
+  border: 1px solid gold;
+}
+.border3 {
+  color: #fff;
+  background-color: brown;
+  border: 1px dotted blue;
+}
+
+/* HTML LINKS */
+a {
+  color: black;
+  border: 1px solid grey;
+  padding: 8px;
+  margin: 5px;
+}
+a:link {
+  background-color: #cdcdcd;
+}
+
+a:visited {
+  background-color: green;
+}
+
+a:hover {
+  background-color: red;
+  text-decoration: none;
+}
+
+a:active {
+  background-color: yellow;
+}
+
+/* HTML IMAGES  */
+.bgImage {
+  background-color: transparent;
+  background-image: url('./Images/hbd2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.pic {
+  font-weight: bold;
+}
